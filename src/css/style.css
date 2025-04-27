@@ -738,8 +738,8 @@ footer {
 @media screen and (max-width: 1024px) {
     
     font-size: 16px;
+    
 }
-
 
 
 
@@ -759,12 +759,51 @@ footer {
         text-decoration: none;
         /* font-size: 20px; */
     }
+
+
+@media screen and (max-width: 768px) {
+    flex-direction: column;
+align-items: flex-start;
+row-gap: 30px;
+
 }
+
+
+@media screen and (max-width: 565px) {
+    
+align-items: center;
+
+ .footer__address{
+    order: 0;
+}
+
+
+
+
+}
+
+
+}
+
+
+
+
+
+
 
 .footer__social ul {
     display: flex;
     column-gap: 30px;
     list-style: none;
+    padding-left: 0;
+
+
+@media screen and (max-width: 1024px) {
+
+       column-gap: 20px;
+
+    }
+
 }
 
 
